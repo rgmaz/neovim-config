@@ -1,5 +1,3 @@
--- ~/.config/nvim/lua/custom/plugins/ui.lua
-
 return {
 	-- Colorscheme
 	{

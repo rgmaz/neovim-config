@@ -1,5 +1,3 @@
--- ~/.config/nvim/lua/custom/plugins/lsp.lua
-
 return {
 	{
 		"williamboman/mason.nvim",

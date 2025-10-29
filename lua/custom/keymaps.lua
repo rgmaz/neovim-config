@@ -1,5 +1,3 @@
--- ~/.config/nvim/lua/custom/keymaps.lua
-
 local keymap = vim.keymap.set
 
 -- Set keymaps for neo-tree (file explorer)

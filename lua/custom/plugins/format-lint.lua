@@ -1,5 +1,3 @@
--- ~/.config/nvim/lua/custom/plugins/format-lint.lua
-
 return {
 	-- Formatter
 	{

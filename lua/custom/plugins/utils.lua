@@ -1,11 +1,10 @@
--- ~/.config/nvim/lua/custom/plugins/utils.lua
-
 return {
 	-- Auto-pairing for brackets, quotes, etc.
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
-		opts = {}, -- Use default configuration
+		config = true,
+		opts = {},
 	},
 
 	-- Terminal manager
