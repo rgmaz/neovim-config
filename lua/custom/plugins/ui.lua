@@ -1,11 +1,11 @@
 return {
 	-- Colorscheme
+
 	{
-		"navarasu/onedark.nvim",
-		priority = 1000, -- Ensure it loads first
+		"loctvl842/monokai-pro.nvim",
+		priority = 1000,
 		config = function()
-			-- Load the colorscheme here
-			vim.cmd.colorscheme("onedark")
+			vim.cmd([[colorscheme monokai-pro]])
 		end,
 	},
 
